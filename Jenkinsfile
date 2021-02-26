@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 echo 'webhookTest'
                 echo 'update in feature branch'
-                echo '${currentBuild.fullProjectName}'
+                echo "${currentBuild.fullProjectName}"
             }
         }
         stage('Test') {
