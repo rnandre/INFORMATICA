@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo 'webhookTest'
+                echo 'update in feature branch'
             }
         }
         stage('Test') {
