@@ -23,10 +23,7 @@ pipeline {
             }
         }
     
-    stage('git checkout'){
-        steps{
-            git branch: 'Master', credentialsId: '8748bc1b-971c-4a2f-a360-f682c54ab2f6', url: 'https://github.com/farmerstest/INFORMATICA.git'
-        }
+    
 }
 }
-}
+
