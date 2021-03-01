@@ -1,10 +1,7 @@
 pipeline {
     agent any
 
-    stages {
-         stage('Git chekout'){
-               git branch: '$Branch', credentialsId: 'git-login', poll: false, url: 'https://github.com/farmerstest/INFORMATICA.git'
-    }
+   
         stage('Build') {
             steps {
                 echo 'Building..'
