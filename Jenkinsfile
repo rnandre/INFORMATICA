@@ -9,9 +9,14 @@ pipeline {
                 echo 'Building..'
                 echo 'webhookTest'
                 echo 'update in feature branch'
+<<<<<<< HEAD
                 echo "${currentBuild.fullProjectName}"
                 echo "${currentBuild.fullDisplayName}"
                 echo 'change in main branch again'
+=======
+                echo 'test1'
+                echo 'this if from feature_demo1'
+>>>>>>> feature_demo1
             }
         }
         stage('Test') {
